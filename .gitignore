@@ -1,0 +1,22 @@
+# https://dart.dev/tools/private-files
+# Created by `dart pub`
+.dart_tool/
+.env
+cloudflare/.dev.vars
+cloudflare/.env
+
+# Flutter build output and generated files
+/build/
+/coverage/
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Local IDE settings
+.idea/
+*.iml
+
+# Cloudflare cache and JavaScript dependencies
+cloudflare/.wrangler/
+node_modules/
